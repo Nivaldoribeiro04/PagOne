@@ -1,6 +1,5 @@
 import streamlit as st
 
-
 st.set_page_config(
     page_title="Gestão1"
 )
@@ -16,3 +15,4 @@ with tab1:
 
 with tab3:
     st.text_input("Nome do clinte")
+
