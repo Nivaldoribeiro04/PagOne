@@ -1,0 +1,32 @@
+body{
+    font-family: 'Segoe UI','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+    padding: 20px;
+}
+
+h1{
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+    font-size: 2.5em;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;    
+}
+
+.conteiner_log_gest{
+    max-width: 900px;
+    margin: 0 auto;
+    background: rgb(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 40px;
+    animation: slideUP 0.8s ease-out;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+}
+
+.form_log_gest{
+    
+}
